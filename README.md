@@ -43,7 +43,7 @@ This project aims to develop a web application that allows users to analyze imag
 - **Attractive User Interface**: Developed with HTML, CSS, and JavaScript to offer a friendly and responsive user experience.
 - **Simple and Secure Connection**: Communication between the frontend and backend is done via REST API, ensuring seamless and secure integration.
 
-## Project Benefits
+## 🏆 Project Benefits
 
 - **Automated Image Analysis**: Facilitates automated image analysis, saving time and effort on manual tasks.
 - **Accessibility**: Available as a web application, accessible from any device with a browser.
