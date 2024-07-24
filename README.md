@@ -50,3 +50,7 @@ This project aims to develop a web application that allows users to analyze imag
 - **Automated Image Analysis**: Facilitates automated image analysis, saving time and effort on manual tasks.
 - **Accessibility**: Available as a web application, accessible from any device with a browser.
 - **Scalability**: Uses Azure cloud services, allowing for easy scaling based on demand.
+
+## 👀 Demo
+https://demo-jardin-botanico-ai.netlify.app/
+
