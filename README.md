@@ -3,6 +3,9 @@ This project aims to develop a web application that allows users to analyze imag
 
 <img src="https://github.com/user-attachments/assets/422ed0b4-77f3-4155-aef7-adcb83474da2" width="49%"></img>
 
+## ✨ Accessible demo
+https://demo-jardin-botanico-ai.netlify.app/
+
 ## 🛠 Project Components
 
 ### 👾 Frontend
@@ -51,6 +54,5 @@ This project aims to develop a web application that allows users to analyze imag
 - **Accessibility**: Available as a web application, accessible from any device with a browser.
 - **Scalability**: Uses Azure cloud services, allowing for easy scaling based on demand.
 
-## 👀 Demo
-https://demo-jardin-botanico-ai.netlify.app/
+
 
