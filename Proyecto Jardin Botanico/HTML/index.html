@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardín Botánico Nacional - Clasificador de Flores</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="img/Logo_Vectorizado_para_portal__500X130_px.png" alt="Jardín Botánico Nacional">
+        </div>
+        <div class="top-right">
+            <div class="search-bar">
+                <input type="text" placeholder="Ingresa tu búsqueda">
+                <button>🔍</button>
+            </div>
+        </div>
+    </div>
+    <nav class="nav-menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Transparencia</a></li>
+            <li><a href="#">Departamentos</a></li>
+            <li><a href="#">Publicaciones</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Foro</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1>Clasificador de Flores</h1>
+        <div class="upload-container">
+            <img id="imagePreview" src="https://via.placeholder.com/400x300?text=Vista+previa+de+la+imagen" alt="Vista previa de la imagen">
+            <div>
+                <input type="text" id="imageUrl" placeholder="Ingrese URL de la imagen (opcional)" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                <input type="file" id="imageUpload" accept="image/*">
+                <label for="imageUpload" class="upload-btn">Seleccionar imagen</label>
+                <button onclick="analyzeImage()" class="upload-btn">Analizar imagen</button>
+                <button onclick="analyzeUrl()" class="upload-btn">Analizar URL</button>
+            </div>
+        </div>
+        <div id="results"></div>
+    </div>
+</body>
+</html>

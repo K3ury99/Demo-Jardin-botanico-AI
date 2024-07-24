@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.header {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    height: 60px;
+}
+.top-right {
+    display: flex;
+    align-items: center;
+}
+.search-bar {
+    display: flex;
+    margin-right: 20px;
+}
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.search-bar button {
+    background-color: #0A870D;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.nav-menu {
+    background-color: #0A870D;
+    padding: 10px 0;
+}
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.nav-menu ul li {
+    margin: 0 15px;
+}
+.nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+.nav-menu ul li a:hover {
+    background-color: white;
+    color: #0A870D;
+}
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+.upload-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+#imageUpload {
+    display: none;
+}
+.upload-btn {
+    background-color: #0A870D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 10px 5px;
+}
+.upload-btn:hover {
+    background-color: #076709;
+}
+#imagePreview {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+#results {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
