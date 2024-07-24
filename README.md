@@ -1,9 +1,9 @@
-# Demo-Jardin-botanico-AI
+# 🚀 Demo-Jardin-botanico-AI
 This project aims to develop a web application that allows users to analyze images using Azure Computer Vision services. The application is designed to be intuitive and easy to use, providing detailed analysis of images uploaded by users.
 
-## Project Components
+## 🛠 Project Components
 
-### Frontend
+### 👾 Frontend
 - **Technologies Used**: HTML, CSS, JavaScript
 - **Features**:
   - Clean and responsive user interface for image upload and display.
@@ -11,14 +11,14 @@ This project aims to develop a web application that allows users to analyze imag
   - Real-time display of analysis results.
   - Error handling and user feedback.
 
-### Backend
+### 🐱‍👤 Backend
 - **Technologies Used**: Azure Computer Vision, REST API
 - **Features**:
   - Receiving images uploaded from the frontend.
   - Sending images to Azure Computer Vision for analysis via REST API.
   - Processing Azure's response and sending the results back to the frontend.
 
-## Workflow
+## 🎈 Workflow
 
 1. **Image Upload**:
    - Users upload an image through a form on the web page.
@@ -37,7 +37,7 @@ This project aims to develop a web application that allows users to analyze imag
      - Tags and categories.
      - Text detection (OCR).
 
-## Key Features
+## 🥘 Key Features
 
 - **Accuracy and Efficiency**: Utilizes the powerful Azure Computer Vision service to ensure precise and quick analysis.
 - **Attractive User Interface**: Developed with HTML, CSS, and JavaScript to offer a friendly and responsive user experience.
