@@ -1,6 +1,8 @@
 # 🚀 Demo-Jardin-botanico-AI
 This project aims to develop a web application that allows users to analyze images using Azure Computer Vision services. The application is designed to be intuitive and easy to use, providing detailed analysis of images uploaded by users.
 
+<img src="https://github.com/user-attachments/assets/422ed0b4-77f3-4155-aef7-adcb83474da2" width="49%"></img>
+
 ## 🛠 Project Components
 
 ### 👾 Frontend
