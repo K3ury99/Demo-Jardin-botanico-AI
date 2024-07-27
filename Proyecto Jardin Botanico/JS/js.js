@@ -122,3 +122,4 @@ function displayResults(data) {
     }
     $("#results").html(resultHtml);
 }
+ 
